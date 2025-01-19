@@ -1,0 +1,68 @@
+body {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+
+
+#search {
+    position: relative;
+    background-color: white;
+    height: 100px;
+    width: 120%;
+}
+#submit {
+    position: relative;
+    width: 70px;
+    color: white;
+    font-size: 13px;
+    height: 21px;
+    text-align: center;
+    margin-left: -4px;
+    background-color: green;
+}
+
+
+#shopping {
+    color: red;
+    line-height: 52px;
+    font-size: 36px;
+    margin-left: 20px;
+    position: relative;
+    height: 200px;
+    width: 120%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+li {
+     height: 40px;
+    width: 240px;
+    background: #000 repeating-linear-gradient(transparent 0%, transparent 0%, #fff 7%, #fff 100%);
+}
+
+
+i {
+    background-color: red;
+    color: white;
+    border-radius: 80px;
+    margin-top: 14px;
+    margin-left: 70px;
+    font-size: 30px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
