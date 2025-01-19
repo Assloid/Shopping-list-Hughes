@@ -24,7 +24,6 @@ function addItemFunction() {
     listItem.textContent = itemText;
 
     shoppingList.appendChild(listItem);
-    shoppingList.appendChild(close);
 
     itemText.value = "";
   }
